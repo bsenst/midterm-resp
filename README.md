@@ -5,8 +5,8 @@ Creating and deploying a model as described in https://github.com/alexeygrigorev
 Disclaimer: The only purpose of this code repository is creating and deploying an example statistical model. No medical advice. The underlying data my be wrong and any conclusion made false.
 
 Dataset: https://www.kaggle.com/datasets/abbotpatcher/respiratory-symptoms-and-treatment
+
 Notebook: https://www.kaggle.com/code/bnzn261029/midterm-resp
-Model: multinomial logistic regression, low accuracy 0.2 %, pickle file resp-model.bin
 
 Input:
 
@@ -33,6 +33,14 @@ Output:
 	  }
 	}
 
-LabelEncoder Symptoms
+Create virtual environment and install requirements
 
-LabelEncoder Disease
+	pip install -r requirements.txt
+
+Run the flask app
+
+	python flask_app.py
+
+Run the example post request
+
+	python test_service.py
