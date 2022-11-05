@@ -6,7 +6,11 @@ Creating and deploying a model as described in https://github.com/alexeygrigorev
 
 Dataset: https://www.kaggle.com/datasets/abbotpatcher/respiratory-symptoms-and-treatment
 
-Notebook: https://www.kaggle.com/code/bnzn261029/midterm-resp
+1st Notebook for EDA and initial Model: https://www.kaggle.com/code/bnzn261029/midterm-resp
+
+2nd Notebook with cleaned data (i.e. symptom list) and rebuild, second Model: https://www.kaggle.com/code/bnzn261029/fork-of-midterm-resp-symptoms-cleaned
+
+3rd Notebook with Decision Tree: https://www.kaggle.com/code/bnzn261029/midterm-resp-decision-tree
 
 ### Problem Description
 
@@ -70,7 +74,7 @@ Then activate the virtual environment for Windows
 
 	virtualenv\Scripts\activate.bat
 
-or Unix/MacOS
+Or on Unix/MacOS
 	
 	source virtualenv/bin/activate
 	
@@ -86,7 +90,7 @@ Open another command window and run the example post request
 
 	python test_service.py
 
-Make sure the test script sends the request to the url the flask app is being served https://172.17.0.2:9696
+Make sure the test script sends the request to the url the flask app is being served (i.e. https://172.17.0.2:9696).
 	
 ### Run the Service using Docker
 
@@ -106,7 +110,7 @@ You should see that the flask app is being served. Open another terminal and run
 
 	python test_service.py
 
-Make sure the test script sends the request to the url the flask app is being served https://172.17.0.2:9696
+Make sure the test script sends the request to the url the flask app is being served (i.e. https://172.17.0.2:9696).
 
 ### Labels
 
