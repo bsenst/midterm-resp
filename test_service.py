@@ -12,7 +12,7 @@ patient = {
     'Symptoms_encoded': 48,
 }
 
-url = 'http://localhost:9696/predict'
+url = 'http://0.0.0.0:9696/predict'
 response = requests.post(url, json=patient)
 result = response.json()
 
