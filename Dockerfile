@@ -10,4 +10,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "flask_app.py"]
+CMD [ "python", "flask_app.py", "localhost:9696"]
