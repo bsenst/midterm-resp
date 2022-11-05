@@ -8,6 +8,14 @@ Dataset: https://www.kaggle.com/datasets/abbotpatcher/respiratory-symptoms-and-t
 
 Notebook: https://www.kaggle.com/code/bnzn261029/midterm-resp
 
+### Problem Description
+
+In medicine finding the right diagnosis is key for successful treatment and thus restituation of health. Diagnosing a disease involves several steps. It includes history taking, physical examination and diagnostic procedures followed by a preliminary list of possible diagnoses. Then estimation of the most likely diagnosis can be made through different statistic techniques and experienced clinicians develop an instinct to come to a conclusion fast. But improving the diagnostic process and reducing uncertainty is an ongoing challenge and offers opportunities for data science solutions.
+
+Ahsan MM, Luna SA, Siddique Z. Machine-Learning-Based Disease Diagnosis: A Comprehensive Review. Healthcare (Basel). 2022 Mar 15;10(3):541. doi: 10.3390/healthcare10030541. PMID: 35327018; PMCID: PMC8950225.
+
+Raita Y, Camargo CA Jr, Liang L, Hasegawa K. Big Data, Data Science, and Causal Inference: A Primer for Clinicians. Front Med (Lausanne). 2021 Jul 6;8:678047. doi: 10.3389/fmed.2021.678047. PMID: 34295910; PMCID: PMC8290071.
+
 ### Example
 
 Input:
