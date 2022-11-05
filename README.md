@@ -62,7 +62,17 @@ Output:
 
 ### Run the Service
 
-Create virtual environment and install requirements
+Create virtual environment [https://docs.python.org/3/tutorial/venv.html](https://docs.python.org/3/tutorial/venv.html)
+
+	python3 -m venv virtualenv
+	
+Then activate the virtual environment
+
+	tutorial-env\Scripts\activate.bat # for Windows
+	
+	source tutorial-env/bin/activate # Unix or MacOS
+	
+Install requirements
 
 	pip install -r requirements.txt
 
