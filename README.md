@@ -60,7 +60,7 @@ Output:
 	  }
 	}
 
-### Run the Service
+### Run the Service using Python
 
 Create virtual environment [https://docs.python.org/3/tutorial/venv.html](https://docs.python.org/3/tutorial/venv.html)
 
@@ -83,6 +83,28 @@ Run the flask app
 Open another command window and run the example post request
 
 	python test_service.py
+
+Make sure the test script sends the request to the url the flask app is being served https://172.17.0.2:9696
+	
+### Run the Service using Docker
+
+Download the docker image (206.6 MB)
+
+	docker pull fritz.jfrog.io/default-docker-local/midterm-resp-docker:latest
+
+Compare the checksum sha256 78583fdc866a728a2d3588d3d7c45b44b7a9f9a9c2175e81688d9ec5ab6d5a42
+
+Build and run the docker image
+	
+	docker build --tag midterm-resp-docker 
+
+	docker run midterm-resp-docker
+
+You should see that the flask app is being served. Open another terminal and run the test script.
+
+	python test_service.py
+
+Make sure the test script sends the request to the url the flask app is being served https://172.17.0.2:9696
 
 ### Labels
 
