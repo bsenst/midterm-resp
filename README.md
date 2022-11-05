@@ -6,11 +6,9 @@ Creating and deploying a model as described in https://github.com/alexeygrigorev
 
 Dataset: https://www.kaggle.com/datasets/abbotpatcher/respiratory-symptoms-and-treatment
 
-1st Notebook for EDA and initial Model: https://www.kaggle.com/code/bnzn261029/midterm-resp
-
-2nd Notebook with cleaned data (i.e. symptom list) and rebuild, second Model: https://www.kaggle.com/code/bnzn261029/fork-of-midterm-resp-symptoms-cleaned
-
-3rd Notebook with Decision Tree: https://www.kaggle.com/code/bnzn261029/midterm-resp-decision-tree
+* 1st Notebook for EDA and initial Model: https://www.kaggle.com/code/bnzn261029/midterm-resp
+* 2nd Notebook with cleaned data (i.e. symptom list) and rebuild, second Model: https://www.kaggle.com/code/bnzn261029/fork-of-midterm-resp-symptoms-cleaned
+* 3rd Notebook with Decision Tree: https://www.kaggle.com/code/bnzn261029/midterm-resp-decision-tree
 
 ### Problem Description
 
@@ -22,7 +20,7 @@ Raita Y, Camargo CA Jr, Liang L, Hasegawa K. Big Data, Data Science, and Causal 
 
 ### Example
 
-Input:
+Input (as used in test_service.py)
 
 	patient = {
 		'Age': 60,
@@ -32,7 +30,7 @@ Input:
 		'Symptoms_encoded': 48,
 	}
 
-Output:
+Output (response from the model served as flask app):
 
 	{
 	  "disclaimer": "This script is for educational purpose only.",
