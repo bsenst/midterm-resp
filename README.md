@@ -68,9 +68,9 @@ Create virtual environment [https://docs.python.org/3/tutorial/venv.html](https:
 	
 Then activate the virtual environment
 
-	tutorial-env\Scripts\activate.bat # for Windows
+	virtualenv\Scripts\activate.bat # for Windows
 	
-	source tutorial-env/bin/activate # Unix or MacOS
+	source virtualenv/bin/activate # Unix or MacOS
 	
 Install requirements
 
