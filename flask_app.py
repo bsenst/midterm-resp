@@ -22,7 +22,7 @@ app = Flask('resp-pred')
 
 @app.route('/')
 def index():
-    return 'Web App with Python Flask!'
+    return 'Predicting Respiratory Disease from Age, Gender, Symptom'
 
 @app.route('/predict', methods=['POST'])
 def predict():
