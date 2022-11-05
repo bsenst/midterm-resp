@@ -62,15 +62,17 @@ Output:
 
 ### Run the Service using Python
 
-Create virtual environment [https://docs.python.org/3/tutorial/venv.html](https://docs.python.org/3/tutorial/venv.html)
+Create virtual environment (as described in [https://docs.python.org/3/tutorial/venv.html](https://docs.python.org/3/tutorial/venv.html))
 
 	python3 -m venv virtualenv
 	
-Then activate the virtual environment
+Then activate the virtual environment for Windows
 
-	virtualenv\Scripts\activate.bat # for Windows
+	virtualenv\Scripts\activate.bat
+
+or Unix/MacOS
 	
-	source virtualenv/bin/activate # Unix or MacOS
+	source virtualenv/bin/activate
 	
 Install requirements
 
@@ -96,7 +98,7 @@ Compare the checksum sha256 78583fdc866a728a2d3588d3d7c45b44b7a9f9a9c2175e81688d
 
 Build and run the docker image
 	
-	docker build --tag midterm-resp-docker 
+	docker build --tag midterm-resp-docker
 
 	docker run midterm-resp-docker
 
