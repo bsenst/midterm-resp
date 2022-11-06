@@ -30,12 +30,11 @@ Input (as used in test_service.py)
 		'Symptoms_encoded': 48,
 	}
 
-Or send curl request to server (availability not guaranteed)
+Or send curl request to Flask API https://bsenst.pythonanywhere.com/predict (availability not guaranteed)
 
 	curl --location --request POST 'https://bsenst.pythonanywhere.com/predict' \
 	--header 'Content-Type: application/json' \
-	--header 'Content-Length: 88' \
-	--data-raw '{"Age": 10, "Sex=female": 0, "Sex=male": 1, "Sex=not to say": 0, "Symptoms_encoded": 48}'
+	--data-raw '{"Age": 60, "Sex=female": 0, "Sex=male": 1, "Sex=not to say": 0, "Symptoms_encoded": 48}'
 
 Output (response from the model served as flask app):
 
