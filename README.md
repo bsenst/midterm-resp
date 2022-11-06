@@ -30,6 +30,15 @@ Input (as used in test_service.py)
 		'Symptoms_encoded': 48,
 	}
 
+Or send curl request to server (availability not guaranteed)
+
+'
+curl --location --request POST 'https://bsenst.pythonanywhere.com/predict' \
+--header 'Content-Type: application/json' \
+--header 'Content-Length: 88' \
+--data-raw '{"Age": 10, "Sex=female": 0, "Sex=male": 1, "Sex=not to say": 0, "Symptoms_encoded": 48}'
+'
+
 Output (response from the model served as flask app):
 
 	{
@@ -109,6 +118,10 @@ You should see that the flask app is being served. Open another terminal and run
 	python test_service.py
 
 Make sure the test script sends the request to the url the flask app is being served (i.e. https://172.17.0.2:9696).
+
+### 
+
+
 
 ### Labels
 
